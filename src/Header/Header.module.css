@@ -1,0 +1,31 @@
+.header {
+    height: 64px;
+    width: 100%;
+    background-color: #2196F3;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    margin-left: 62px;
+    height: 100%;
+}
+
+.navItem {
+    display: grid;
+    height: 100%;
+
+}
+
+a {
+    display: grid;
+    align-items: center;
+    padding: 0 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+a.active {
+    color: white;
+    background-color: #1E88E5;
+}

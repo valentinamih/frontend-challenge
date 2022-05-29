@@ -1,0 +1,29 @@
+
+.catImage {
+    display: inline-block;
+    width: 225px;
+    height: 225px;
+    background-size: 225px 225px;
+}
+
+.likeButton {
+    position: relative;
+    top: -55px;
+    left: 160px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-image: url('./../assets/like.png');
+}
+
+.likeButton:active {
+    filter: brightness(80%);
+}
+
+.favLikeButton {
+    background-image: url("./../assets/hoveredLike.png")
+}
+
+.likeButton:hover {
+    background-image: url("./../assets/hoveredLike.png");
+}
